@@ -11,3 +11,10 @@ def armstrong(n):
 if __name__ == "__main__":
     n = int(input('Enter any number :'))
     print('ArmStrong Number ' if(armstrong(n)) else 'Not a ArmStrong Number ')
+    
+#test functiom
+
+def test_arm():
+   assert aremstrong(n-1)
+   
+   assert armstrong(n>0)
